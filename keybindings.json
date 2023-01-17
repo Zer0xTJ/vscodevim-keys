@@ -1,0 +1,58 @@
+[
+  {
+    "key": "ctrl+h",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus && vim.active"
+  },
+  {
+    "key": "shift+alt+j",
+    "command": "editor.emmet.action.balanceIn"
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "editor.emmet.action.balanceOut"
+  },
+  {
+    "key": "shift+alt+h",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "-editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+l",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenSelectNext"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenSelectPrevious"
+  },
+  {
+    "key": "ctrl+c n",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus && vim.mode == 'Visual'"
+  },
+  {
+    "key": "ctrl+c p",
+    "command": "editor.action.addSelectionToPreviousFindMatch",
+    "when": "editorFocus && vim.mode == 'Visual'"
+  },
+  {
+    "key": "ctrl+c a",
+    "command": "editor.action.selectHighlights",
+    "mhen": "editrFocus && vim.mode == 'Visual'"
+  }
+]
