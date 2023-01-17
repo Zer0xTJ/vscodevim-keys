@@ -53,6 +53,6 @@
   {
     "key": "ctrl+c a",
     "command": "editor.action.selectHighlights",
-    "mhen": "editrFocus && vim.mode == 'Visual'"
+    "when": "editorFocus && vim.mode == 'Visual'"
   }
 ]
