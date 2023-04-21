@@ -73,5 +73,25 @@
   {
     "key": "ctrl+x ctrl+f",
     "command": "workbench.action.files.openFile"
+  },
+  {
+    "key": "ctrl+x z",
+    "command": "workbench.action.toggleZenMode"
+  },
+  {
+    "key": "ctrl+k z",
+    "command": "-workbench.action.toggleZenMode"
+  },
+  {
+    "key": "ctrl+=",
+    "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "editor.action.fontZoomOut"
+  },
+  {
+    "key": "ctrl+c ctrl+g",
+    "command": "findThenJump.initiate"
   }
 ]
