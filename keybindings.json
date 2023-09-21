@@ -5,15 +5,15 @@
     "when": "editorTextFocus && vim.active"
   },
   {
-    "key": "shift+alt+j",
+    "key": "alt+j",
     "command": "editor.emmet.action.balanceIn"
   },
   {
-    "key": "shift+alt+k",
+    "key": "alt+k",
     "command": "editor.emmet.action.balanceOut"
   },
   {
-    "key": "shift+alt+h",
+    "key": "alt+h",
     "command": "editor.action.smartSelect.shrink",
     "when": "editorTextFocus"
   },
@@ -23,7 +23,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+alt+l",
+    "key": "alt+l",
     "command": "editor.action.smartSelect.expand",
     "when": "editorTextFocus"
   },
@@ -56,11 +56,6 @@
     "when": "editorFocus && vim.mode == 'Visual'"
   },
   {
-    "key": "ctrl+o",
-    "command": "-workbench.action.files.openFolderViaWorkspace",
-    "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
-  },
-  {
     "key": "ctrl+x o",
     "command": "workbench.action.files.openFolder",
     "when": "openFolderWorkspaceSupport"
@@ -79,10 +74,6 @@
     "command": "workbench.action.toggleZenMode"
   },
   {
-    "key": "ctrl+k z",
-    "command": "-workbench.action.toggleZenMode"
-  },
-  {
     "key": "ctrl+=",
     "command": "editor.action.fontZoomIn"
   },
@@ -93,5 +84,15 @@
   {
     "key": "ctrl+x ctrl+g",
     "command": "findThenJump.initiate"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-extension.vim_ctrl+n",
+    "when": "editorTextFocus && vim.active && vim.use<C-n> && !inDebugRepl || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-extension.vim_ctrl+p",
+    "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
   }
 ]
