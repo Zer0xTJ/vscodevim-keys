@@ -168,5 +168,15 @@
   {
     "key": "ctrl+x ctrl+d",
     "command": "editor.action.revealDeclaration"
+  },
+  {
+    "key": "down",
+    "command": "-selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "key": "up",
+    "command": "-selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
   }
 ]
