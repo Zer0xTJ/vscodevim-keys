@@ -1,10 +1,14 @@
 [
   {
-    "key": "ctrl+x m",
+    "key": "ctrl+x b",
     "command": "bookmarks.toggle"
   },
   {
-    "key": "ctrl+x b",
+    "key": "ctrl+x n",
+    "command": "bookmarks.jumpToNext"
+  },
+  {
+    "key": "ctrl+x p",
     "command": "bookmarks.jumpToNext"
   },
   {
