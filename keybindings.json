@@ -1,5 +1,13 @@
 [
   {
+    "key": "ctrl+x m",
+    "command": "bookmarks.toggle"
+  },
+  {
+    "key": "ctrl+x b",
+    "command": "bookmarks.jumpToNext"
+  },
+  {
     "key": "ctrl+h",
     "command": "editor.action.showHover",
     "when": "editorTextFocus && vim.active"
