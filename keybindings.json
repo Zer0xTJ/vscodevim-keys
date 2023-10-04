@@ -1,5 +1,9 @@
 [
   {
+    "key": "ctrl+x alt+b",
+    "command": "workbench.view.extension.bookmarks"
+  },
+  {
     "key": "ctrl+x b",
     "command": "bookmarks.toggle"
   },
