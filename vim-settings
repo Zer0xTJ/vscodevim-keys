@@ -1,0 +1,55 @@
+  "vim.useSystemClipboard": true,
+  "vim.smartRelativeLine": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["e"],
+      "after": ["<leader>", "e"]
+    },
+    {
+      "before": ["b"],
+      "after": ["<leader>", "b"]
+    },
+    {
+      "before": ["w"],
+      "after": ["<leader>", "w"]
+    },
+    {
+      "before": ["d", "w"],
+      "after": ["d", "<leader>", "w"]
+    },
+    {
+      "before": ["d", "e"],
+      "after": ["d", "<leader>", "e"]
+    },
+    {
+      "before": ["d", "b"],
+      "after": ["d", "<leader>", "b"]
+    },
+    {
+      "before": ["c", "w"],
+      "after": ["c", "<leader>", "w"]
+    },
+    {
+      "before": ["c", "e"],
+      "after": ["c", "<leader>", "e"]
+    },
+    {
+      "before": ["c", "b"],
+      "after": ["c", "<leader>", "b"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["e"],
+      "after": ["<leader>", "e"]
+    },
+    {
+      "before": ["b"],
+      "after": ["<leader>", "b"]
+    },
+    {
+      "before": ["w"],
+      "after": ["<leader>", "w"]
+    }
+  ]
